@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    background: url(Background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+    display: block;
+    font-family: Gadugi, Verdana;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+
+.Header {
+    width: 100%;
+    padding: 30px 0;
+    padding-bottom: 60px;
+    /*    height: 100px;*/
+    background-color: rgba(13, 13, 13, 0.7);
+}
+
+.HeaderX{
+    width: 400px;
+    float: right;
+    margin-right: 17%;
+}
+
+.Menu {
+    color: black;
+    font-size: 20px;
+    margin: 0 3px;
+    text-decoration: none;
+    background-color: rgba(191, 191, 191, 0.9);
+    padding: 5px 10px;
+}
+
+.Menu:hover {
+    background-color: rgba(212, 212, 212, 0.9);
+}
+
+.Menu:active {
+    background-color: rgba(182, 182, 182, 0.6);
+}
+
+.Middle {
+    height: 100%;
+    width: 100%;
+}
+
+.MDocuments {
+    height: 100%;
+    width: 100%;
+}
+
+.MDTable {
+    padding: 50px 5px;
+    width: auto;
+    /*    height: 400px;*/
+    background-color: rgba(225, 225, 225, 0.8);
+    float: right;
+    margin-right: 5%;
+    color: black;
+    overflow-y: auto;
+}
+
+.MDTable div {
+    float: left;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.MDTable div strong {
+    text-align: center;
+    border-bottom: 2px solid dimgray;
+    padding: 4px 0;
+}
+
+.MDTable div p {
+    margin-top: 5px;
+    border-bottom: 1px solid gray;
+    padding: 4px 0;
+}
+
+.MDTable div a {
+    margin-top: 5px;
+    border-bottom: 1px solid gray;
+    padding: 4px 0;
+}
+
+.ActionTemp{
+    clear: both;
+    position: relative;
+/*    top: -21px;*/
+    left: -12px;
+/*    background-color: aqua;*/
+/*    margin-top: 1000px;*/
+}
+
+.DeleteAction{
+/*    display: block;*/
+    float: left;
+    margin: 0 2px;
+    text-align: center;
+    border-bottom: 2px solid #404040;
+/*    padding: 1px 4px;*/
+    background-color: #b3b3b3;
+    text-decoration: none;
+    color: black;
+/*    border-bottom: 2px solid #595959;*/
+}
+
+.DeleteAction:hover{
+    background-color: #bfbfbf;
+/*    border-bottom: 2px solid #595959;*/
+}
+
+.DeleteAction:active{
+    background-color: #a6a6a6;
+/*    border-bottom: 2px solid #333333;*/
+}
+
+.Footer {
+    clear: both;
+    color: #f2f2f2;
+    width: 100%;
+    height: 80px;
+    padding: 17px 0;
+    display: block;
+    margin-top: 17%;
+    margin-bottom: 0px;
+    background-color: rgba(36, 36, 36, 0.6);
+}
+
+.FLeft {
+    width: 50%;
+    float: left;
+}
+
+.FLeft h3 {
+    font-size: 28px;
+}
+
+.FLeft a {
+    background-color: #595959;
+    padding: 10px 8px;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.FLeft a:hover {
+    background-color: #666666;
+    border-bottom: 2px solid #bfbfbf;
+}
+
+.FLeft a:active {
+    background-color: rgba(85, 85, 85, 0.6);
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.FLeft a img {
+    height: 5%;
+    width: 5%;
+    margin: 2px 5px;
+}
+
+.FRight {
+    width: 50%;
+    padding: 10px 0;
+    float: right;
+}
+
+.FRight p {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 20%;
+}

@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*    display: block;*/
+}
+
+html {
+    background: url(Background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial;
+    font-size: 16px;
+    color: dimgrey;
+}
+
+.BodyX {
+    /*    background-color: aquamarine;*/
+/*    height: 100%;*/
+    width: 100%;
+}
+
+.Body {
+    width: 80%;
+    max-width: 1500px;
+    min-width: 400px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 0 auto;
+    /*    opacity: 0.5;*/
+}
+
+.Body .BOption{
+/*    width: 100%;*/
+    height: 10px;
+    clear: both;
+    margin-left: 62%;
+    padding: 10px 10px 4px 10px;
+    color: black;
+}
+
+.Body .BOption a{
+    float: left;
+    margin: 0 2px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    background-color: darkgray;
+    
+}
+
+.Body .BOption a:hover{
+    background-color: lightgray;
+}
+
+.Body .BOption a:active{
+    background-color: gray;
+}
+
+.Header {
+    width: 100%;
+/*    height: 10%;*/
+}
+
+.Middle {
+    padding: 20px 0px;
+}
+
+.MBody {
+    /*    border: 2px solid red;*/
+}
+
+h3 {
+    margin: 1% 10%;
+    /*    border: 2px solid red;*/
+}
+
+.MTop {
+    margin: 0% 10% 0%;
+    text-align: center;
+}
+
+table {
+    margin-top: 1%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #dddddd
+}
+
+th {
+    background-color: #dddddd;
+}
+
+td,
+th {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.col1 {
+    width: 4%;
+}
+
+.col2 {
+    width: 20%;
+}
+
+.col3 {
+    width: 60%;
+}
+
+.col4 {
+    width: 16%;
+}
+
+table input {
+    width: 98.5%;
+    border: 0px;
+    background-color: rgba(243, 243, 243, 0.4);
+}
+
+table select {
+    width: 33%;
+    border: 0px;
+    color: gray;
+    background-color: rgba(243, 243, 243, 0.6);
+}
+
+table .user_birthday_day,
+.user_birthday_year {
+    width: 32%;
+    border: 0px;
+}
+
+hr {
+    width: 90%;
+    clear: both;
+    margin: 0 auto;
+    margin: 1% auto;
+}
+
+button {
+    margin: 0 auto;
+    height: 40px;
+    font-size: 18px;
+    width: 80px;
+    padding: 5px 10px;
+    background-color: darkgray;
+    border: 0px;
+    border-bottom: 2px solid gray;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+button:active {
+    background-color: dimgray;
+}
+
+.Button {
+    /*    margin: 0 auto;*/
+    margin: 2% auto;
+    /*    border: 2px solid red;*/
+    width: 260px;
+}
+
+.Footer {
+    width: 100%;
+/*    height: 20%;*/
+}

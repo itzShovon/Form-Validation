@@ -1,0 +1,9 @@
+DB:	form_validation
+
+user_info[
+	user_name, user_roll, user_father_name, user_birthday,
+	user_address, user_email, user_phone
+]
+user_qualification[
+	user_roll, user_HSC, user_SSC, user_BSc
+]
